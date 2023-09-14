@@ -181,7 +181,7 @@ body{
 
 }
 .shopping-cart .box .image1{
-    background-image: url('/nav1.jpg');
+    background-image: url('nav1.jpg');
     background-size: cover;
     background-position: center;
     height: 8rem;
@@ -189,7 +189,7 @@ body{
 }
 .shopping-cart .box .image2{
    
-    background-image: url('/nav2.jpg');
+    background-image: url('nav2.jpg');
     background-size: cover;
     background-position: center;
     height: 8rem;
@@ -197,7 +197,7 @@ body{
 }
 .shopping-cart .box .image3{
    
-    background-image: url('/nav3.webp');
+    background-image: url('nav3.webp');
     background-size: cover;
     background-position: center;
     height: 8rem;
