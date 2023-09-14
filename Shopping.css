@@ -431,7 +431,7 @@ section{
     clip-path: polygon(100% 0 , 90% 50%, 100% 100%,0% 100%,10% 50%,0% 0%);
 }
 .box .image1{
-    background-image: url('/c1.jpg');
+    background-image: url('c1.jpg');
     background-size: cover;
     background-position: center;
     height: 18rem;
@@ -441,7 +441,7 @@ section{
     margin-bottom: 2rem;
 }
 .box .image2{
-    background-image: url('/c2.png');
+    background-image: url('c2.png');
     background-size: cover;
     background-position: center;
     height: 18rem;
@@ -451,7 +451,7 @@ section{
     margin-bottom: 2rem;
 }
 .box .image3{
-    background-image: url('/c3.png');
+    background-image: url('c3.png');
     background-size: cover;
     background-position: center;
     height: 18rem;
