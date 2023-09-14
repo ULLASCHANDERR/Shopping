@@ -373,7 +373,7 @@ section{
     display: flex;
     align-items: center;
     justify-content: center;
-    background-image: url('/mai.jpeg');
+    background-image: url('mai.jpeg');
    
     background-size: cover;
     background-position: top;
