@@ -1,0 +1,1518 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shopping App</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <link rel="stylesheet" href="Shopping.css">
+</head>
+<body>
+
+
+    <div id="cursor"></div>
+    <div id="cursor-blur"></div>
+
+
+    
+    <header class="header">
+
+        <a href="#" class="logo"><i class="fas fa-shopping-basket"></i>groco</a>
+
+        <nav class="navbar">
+            <a href="#home">home</a>
+            <a href="#features">features</a>
+            <a href="#product">product</a>
+            <a href="#categories">categories</a>
+            <a href="#review">review</a>
+            <a href="#blogs">blogs</a>
+        </nav>
+
+        <div class="icons">
+            <div class="fas fa-bars" id="menu-btn"></div>
+            <div class="fas fa-search" id="search-btn"></div>
+            <div class="fas fa-shopping-cart" id="cart-btn"></div>
+            <div class="fas fa-user" id="login-btn"></div>
+        </div>
+
+        <form action="" class="search-form">
+            <input type="search"  id="search-box" placeholder="search here...">  
+            <label for="search-box" class="fas fa-search"></label>
+        </form>
+
+        <div class="shopping-cart">
+            <div class="box">
+                <p class="image1"></p>
+                <i class="fas fa-trash"></i>
+                <div class="content">
+                    <h3>WATERMELON</h3>
+                    <P class="price">2000/-</P>
+                    <p class="quantity">qty : 1</p>
+                </div>
+            </div>
+            <div class="box">
+                <p class="image2"></p>
+                <i class="fas fa-trash"></i>
+                <div class="content">
+                    <h3>ONION</h3>
+                    <P class="price">1000/-</P>
+                    <p class="quantity">qty : 1Kg</p>
+                </div>
+            </div>
+            <div class="box">
+                <p class="image3"></p>
+                <i class="fas fa-trash"></i>
+                <div class="content">
+                    <h3>CHICKEN</h3>
+                    <P class="price">8000/-</P>
+                    <p class="quantity">qty : 1Kg</p>
+                </div>
+            </div>
+            <div class="total">Total : 11000/-</div>
+            <a href="#" class="btn">Checkout</a>
+        </div>
+
+
+        <form action="" class="login-form">
+            <h3>Login now</h3>
+            <input type="email" placeholder="Your email" class="box">
+            <input type="password" placeholder="Your password" class="box">
+            <p>Forgot password <a href="#">Click here</a></p>
+            <p>Don't have account. <a href="#">Create account</a></p>
+            <input type="submit" value="LOGIN KNOW" class="btn">
+        </form>
+
+
+    </header>
+
+
+    <section class="home" id="home">
+        <div class="content">
+            <h3>Fresh and <span>organic</span> products for you</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique, cupiditate blanditiis rem rerum, necessitatibus et?</p>
+            <a href="#" class="btn">Shop know</a>
+        </div>
+
+    
+
+    </section>
+  
+
+
+    <section class="features" id="features">
+        <h1 class="heading">our <span>Features</span></h1>
+        <div class="box-container">
+
+            <div class="box">
+                <div class="image1"></div>
+                <h3>Fresh and organic</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing.</p>
+                <a href="#" class="btn">read more</a>
+            </div>
+
+
+            <div class="box">
+                <div class="image2"></div>
+                <h3>Free delivery</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing.</p>
+                <a href="#" class="btn">read more</a>
+            </div>
+
+            <div class="box">
+                <div class="image3"></div>
+                <h3>Easy payments</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing.</p>
+                <a href="#" class="btn">read more</a>
+            </div>
+        </div>
+
+    </section>
+
+
+   
+    <section class="products" id="product">
+        <h1 class="heading">Our <span>products</span></h1>
+        
+        <div class="product-slider" id="scroller-in">
+
+            
+            <div class="swiper-wrapper1" id="scroller" >
+                <div class="box">
+                    <img src="/c4.jpg" alt="">
+                    <h3>Fresh orange</h3>
+                    <div class="price">550/-</div>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        
+                    </div>
+                    <a href="#" class="btn">add to cart</a>
+                </div>
+                <div class="box">
+                    <img src="/c5.jpeg" alt="">
+                    <h3>Fresh cabbage</h3>
+                    <div class="price">200/-</div>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-half-star"></i>
+                    </div>
+                    <a href="#" class="btn">add to cart</a>
+                </div>
+                <div class="box">
+                    <img src="/c6.jpeg" alt="">
+                    <h3>Fresh onion</h3>
+                    <div class="price">220/-</div>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-half-star"></i>
+                    </div>
+                    <a href="#" class="btn">add to cart</a>
+                </div>
+                <div class="box">
+                    <img src="/c7.jpeg" alt="">
+                    <h3>Fresh meat</h3>
+                    <div class="price">9000/-</div>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <a href="#" class="btn">add to cart</a>
+                </div>
+
+
+
+
+
+                <div class="box">
+                    <img src="/c4.jpg" alt="">
+                    <h3>Fresh orange</h3>
+                    <div class="price">550/-</div>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        
+                    </div>
+                    <a href="#" class="btn">add to cart</a>
+                </div>
+                <div class="box">
+                    <img src="/c5.jpeg" alt="">
+                    <h3>Fresh cabbage</h3>
+                    <div class="price">200/-</div>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-half-star"></i>
+                    </div>
+                    <a href="#" class="btn">add to cart</a>
+                </div>
+                <div class="box">
+                    <img src="/c6.jpeg" alt="">
+                    <h3>Fresh onion</h3>
+                    <div class="price">220/-</div>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-half-star"></i>
+                    </div>
+                    <a href="#" class="btn">add to cart</a>
+                </div>
+
+
+
+            </div>
+
+
+            
+
+            
+
+
+            <div class="swiper-wrapper2" id="scroller">
+                <div class="box">
+                    <img src="/cn1.jpg" alt="">
+                    <h3>Fresh carrot</h3>
+                    <div class="price">400/-</div>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        
+                    </div>
+                    <a href="#" class="btn">add to cart</a>
+                </div>
+                <div class="box">
+                    <img src="/cn2.jpeg" alt="">
+                    <h3>Green Lemon</h3>
+                    <div class="price">800/-</div>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <a href="#" class="btn">add to cart</a>
+                </div>
+                <div class="box">
+                    <img src="/cn3.jpeg" alt="">
+                    <h3>Fresh potato</h3>
+                    <div class="price">900/-</div>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-half-star"></i>
+                    </div>
+                    <a href="#" class="btn">add to cart</a>
+                </div>
+                <div class="box">
+                    <img src="/cn4.jpeg" alt="">
+                    <h3>Fresh Avacado</h3>
+                    <div class="price">1000/-</div>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <a href="#" class="btn">add to cart</a>
+                </div>
+
+
+
+
+                <div class="box">
+                    <img src="/cn1.jpg" alt="">
+                    <h3>Fresh carrot</h3>
+                    <div class="price">400/-</div>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        
+                    </div>
+                    <a href="#" class="btn">add to cart</a>
+                </div>
+                <div class="box">
+                    <img src="/cn2.jpeg" alt="">
+                    <h3>Green Lemon</h3>
+                    <div class="price">800/-</div>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <a href="#" class="btn">add to cart</a>
+                </div>
+                <div class="box">
+                    <img src="/cn3.jpeg" alt="">
+                    <h3>Fresh potato</h3>
+                    <div class="price">900/-</div>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-half-star"></i>
+                    </div>
+                    <a href="#" class="btn">add to cart</a>
+                </div>
+           
+
+
+
+            </div>
+
+        </div>
+    </section>
+
+
+
+    <section class="categories" id="categories">
+        <h1 class="heading">Product <span>Categories</span></h1>
+
+
+        <div class="box-container">
+            <div class="box">
+                <img src="/cat1.jpeg" alt="">
+                <h3>Vegetables</h3>
+                <p>Upto <span>40%</span> off</p>
+                <a href="#" class="btn">Shop now</a>
+            </div>
+
+            <div class="box">
+                <img src="/cat2.jpeg" alt="">
+                <h3>Fresh fruits</h3>
+                <p>Upto <span>20%</span> off</p>
+                <a href="#" class="btn">Shop now</a>
+            </div>
+
+            <div class="box">
+                <img src="/cat3.jpeg" alt="">
+                <h3>Dairy products</h3>
+                <p>Upto <span>70%</span> off</p>
+                <a href="#" class="btn">Shop now</a>
+            </div>
+
+            <div class="box">
+                <img src="/cat4.jpeg" alt="">
+                <h3>Fresh meat</h3>
+                <p>Upto <span>99%</span> off</p>
+                <a href="#" class="btn">Shop now</a>
+            </div>
+        </div>
+    </section>
+
+<section class="reviews" id="review" >
+    <h1 class="heading">Customer's <span>Review's</span></h1>
+    <div class="review-slider ">
+        <div class="wrapper " id="scroller">
+
+            <div class="box">
+                <img src="cr1.jpeg" alt="">
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Enim libero expedita culpa! Lorem ipsum dolor sit amet consectetur.
+                </p>
+                <h3>Zoro</h3>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="cr2.jpeg" alt="">
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Enim libero expedita culpa! Lorem ipsum dolor sit amet consectetur.
+                </p>
+                <h3>Sanji</h3>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="cr3.jpeg" alt="">
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Enim libero expedita culpa! Lorem ipsum dolor sit amet consectetur.
+                </p>
+                <h3>Luffy</h3>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+            </div>
+
+
+            <div class="box">
+                <img src="cr4.jpeg" alt="">
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Enim libero expedita culpa! Lorem ipsum dolor sit amet consectetur.
+                </p>
+                <h3>Nami</h3>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+            </div>
+
+
+
+
+            <div class="box">
+                <img src="cr1.jpeg" alt="">
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Enim libero expedita culpa! Lorem ipsum dolor sit amet consectetur.
+                </p>
+                <h3>Zoro</h3>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="cr2.jpeg" alt="">
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Enim libero expedita culpa! Lorem ipsum dolor sit amet consectetur.
+                </p>
+                <h3>Sanji</h3>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="cr3.jpeg" alt="">
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Enim libero expedita culpa! Lorem ipsum dolor sit amet consectetur.
+                </p>
+                <h3>Luffy</h3>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+            </div>
+
+
+            
+
+
+            
+
+
+
+        </div>
+    </div>
+</section>
+
+
+
+   <section class="blogs" id="blogs">
+    <h1 class="heading">Our <span>blogs</span></h1>
+
+    <div class="box-container">
+
+        <div class="box">
+            <img src="/end1.jpeg" alt="">
+            <div class="content">
+                <div class="icons">
+                    <a href="#"><i class="fas fa-user"></i>by user</a>
+                    <a href="#"><i class="fas fa-calendar"></i> 10th sept,2023
+                    </a>
+                </div>
+                <h3>Fresh and organic Vegetables and Fruits</h3>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sint, sequi laudantium! Maiores molestiae corrupti sit.</p>
+                <a href="#" class="b">Read more</a>
+            </div>
+        </div>
+
+
+        <div class="box">
+            <img src="/end2.jpeg" alt="">
+            <div class="content">
+                <div class="icons">
+                    <a href="#"><i class="fas fa-user"></i>by user</a>
+                    <a href="#"><i class="fas fa-calendar"></i> 9th sept,2023
+                    </a>
+                </div>
+                <h3>Fresh and organic Vegetables and Fruits</h3>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sint, sequi laudantium! Maiores molestiae corrupti sit.</p>
+                <a href="#" class="b">Read more</a>
+            </div>
+        </div>
+
+
+        <div class="box">
+            <img src="/end3.jpeg" alt="">
+            <div class="content">
+                <div class="icons">
+                    <a href="#"><i class="fas fa-user"></i>by user</a>
+                    <a href="#"><i class="fas fa-calendar"></i> 11th sept,2023
+                    </a>
+                </div>
+                <h3>Fresh and organic Vegetables and Fruits</h3>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sint, sequi laudantium! Maiores molestiae corrupti sit.</p>
+                <a href="#" class="b">Read more</a>
+            </div>
+        </div>
+
+
+       </div>
+    </div>
+</section>
+    
+
+    <section class="footer">
+        
+        <div class="m">
+            
+
+            <div class="end2 ">
+                <div class="box">
+                    <h3> groco <i class="fas fa-shopping-basket"></i></h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae, sed.</p>
+                    <div class="share" id="b4">
+                        <a href="#" class="fab fa-facebook-f"></a>
+                        <a href="#" class="fab fa-twitter"></a>
+                        <a href="#" class="fab fa-instagram"></a>
+                        <a href="#" class="fab fa-linkedin"></a>
+                    </div>
+                </div>
+                <div class="box">
+                    <h3>Contact info</h3>
+                    <a href="#" class="links"><i class="fas fa-phone"></i>+91-8296416161</a>
+                    <a href="#" class="links"><i class="fas fa-phone"></i>+91-5678899999</a>
+                    <a href="#" class="links"><i class="fas fa-envelope"></i>hghaxghh@gmail.com</a>
+                    <a href="#" class="links"><i class="fas fa-map-marker-alt"></i>bangalore india</a>
+                </div>
+                <div class="box">
+                    <h3>Quicklinks</h3>
+                    <a href="#" class="links"><i class="fas fa-arrow-right"></i>home</a>
+                    <a href="#" class="links"><i class="fas fa-arrow-right"></i>features</a>
+                    <a href="#" class="links"><i class="fas fa-arrow-right"></i>products</a>
+                    <a href="#" class="links"><i class="fas fa-arrow-right"></i>categories</a>
+                    <a href="#" class="links"><i class="fas fa-arrow-right"></i>review</a>
+                    <a href="#" class="links"><i class="fas fa-arrow-right"></i>blogs</a>
+                </div>
+                <div class="box" id="box1">
+                    <h3>newsletter</h3>
+                    <p>Subscribe for latest updates</p>
+    
+                    <input type="email" placeholder="Your email" class="email">
+                    <input type="Submit" value="Subcribe" class="b">
+                    <img src="/pay.png" alt="" class="payment-img">
+                </div>
+    
+            </div>
+        </div>
+    </section>
+
+
+
+ <div class="ending">
+    <h1>Created By <span>ULLAS CHANDER R</span> |All  rights reserved</h1>
+ </div>
+
+
+
+<script src="Shopping.js"></script>
+<style>
+    :root{
+        --box-shadow:0rem 1.5rem 1rem rgba(0,0,0,.3);
+        --border:2rem solid rgba(0,0,0,.1);
+        --outline:1rem solid rgba(0,0,0,.1);
+        --outline-hover:2rem solid  black;
+    }
+    
+    *{
+        font-family: Arial, Helvetica, sans-serif;
+        margin: 0;
+        padding: 0;
+        
+        border: none;
+        text-decoration: none;
+        text-transform: capitalize;
+        transition: all 0.3s linear;
+        color: black;
+      
+    }
+    
+    
+    
+    
+    
+    
+    
+    #cursor {
+        height: 10px;
+        width: 10px;
+        background-color: orange;
+        border-radius: 50%;
+        position: fixed;
+       z-index: -100;
+        transition: all linear .1s;
+      }
+      #cursor-blur {
+        height: 300px;
+        width: 300px;
+        background-color: #ffa50069;
+        border-radius: 50%;
+        position: fixed;
+        filter: blur(100px);
+       z-index: -100;
+        transition: all linear 0.5s;
+      }
+    
+    
+    
+    
+    
+    
+    
+    
+    html{
+        font-size: 63%;
+        overflow-x: hidden;
+        
+    }
+    
+    body{
+        background-color: whitesmoke;
+    }
+    
+    .header{
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+        z-index: 1000;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 2rem 9%;
+        background-color:#fff;
+        box-shadow: var(--box-shadow);
+    }
+    
+    .header .logo{
+        font-size: 2.5rem;
+        font-weight: 700;
+        color: #08496d;
+    }
+    .header .logo i{
+        color: orange;
+        font-size: 3rem;
+    }
+    
+    .header .navbar a{
+        font-size: 1.5rem;
+        margin: 0 1.2rem;
+        color:black;
+    }
+    .header .navbar a:hover{
+        color: orange;
+        font-size: 1.7rem;
+    }
+    .header  .icons div{
+        height: 5rem;
+        width: 5rem;
+        font-size: 2rem;
+        color: black;
+        line-height: 5rem;
+        background-color:rgb(191 200 208 / 24%);
+        border-radius: 1rem;   
+        margin-right: 1rem;
+        text-align: center;                                  /*to bring center line height*/
+    }
+    .header  .icons div:hover{
+        color: white;
+        background-color: orange;
+        cursor: pointer;
+    }
+    #menu-btn{
+        display: none;
+    }
+    
+    .header .search-form{
+        position: absolute;
+        top: 120%;
+        right: -110%;                                             /* to move right*/
+        height: 5rem;
+        width: 80rem;
+        background-color: #fff;
+        border-radius: 1rem;
+        overflow: hidden;
+        display: flex;
+        align-items: center;
+        box-shadow: var(--box-shadow);
+    }
+    .header .search-form.active{
+       right: 3rem;                                              /* the minimum sp[ace*/
+       transition: 0.5s linear;
+    }
+    
+    
+    .header .search-form input{
+        height: 100%;                                                    /* to bring symbol in the side*/
+        width: 100%;
+        font-size: 2rem;
+        text-transform: none;
+        background: none;
+        color: black;
+        padding: 0 1.5rem;
+        border-top-left-radius: 1rem;
+        border-bottom-left-radius: 1rem;
+    
+    }
+    
+    .header .search-form label{
+        font-size: 2.2rem;
+        padding:0 1.5rem;
+    }
+    .header .search-form label:hover{
+        cursor: pointer;
+        height: 100%;
+        align-items: center;
+        font-size: 2.4rem;
+        line-height: 4.5rem;
+        color: orange;
+        border: 0.15rem solid black;
+        border-top-right-radius: 1rem;
+        border-bottom-right-radius: 1rem;
+    }
+    
+    .header .shopping-cart{
+        position: absolute;
+        top: 120%;
+        right: -110%;
+        padding: 1rem;
+        box-shadow: var(--box-shadow);
+        width: 30rem;
+        background: #fff;
+        border-radius: 1rem;
+    }
+    .header .shopping-cart .box{
+        display: flex;
+        align-items: center;
+        gap: 1rem;
+        position: relative;
+        margin: 1rem 0;
+    
+    }
+    .shopping-cart .box .image1{
+        background-image: url('/nav1.jpg');
+        background-size: cover;
+        background-position: center;
+        height: 8rem;
+        width: 8rem;
+    }
+    .shopping-cart .box .image2{
+       
+        background-image: url('/nav2.jpg');
+        background-size: cover;
+        background-position: center;
+        height: 8rem;
+        width: 8rem;
+    }
+    .shopping-cart .box .image3{
+       
+        background-image: url('/nav3.webp');
+        background-size: cover;
+        background-position: center;
+        height: 8rem;
+        width: 8rem;
+    }
+    
+    .shopping-cart .box .fa-trash{
+        font-size: 2rem;
+        position: absolute;
+        top: 50%;
+        right: 1.5rem;
+        cursor: pointer;
+        color: #022538;
+        transform: translateY(-50%);
+    }
+    .shopping-cart .box .fa-trash:hover{
+        color: orange;
+        font-size: 2.3rem;
+    }
+    .shopping-cart .box .content h3{
+        color: rgb(4, 24, 84);
+        font-size: 1.8rem;
+        padding-bottom: 1rem;
+    }
+    .shopping-cart .box .content p{
+        color:black;
+        font-size: 1.3rem;
+        padding-bottom: 0.1rem;
+        font-weight: 700;
+        display: inline-block;
+    }
+    .shopping-cart .box .content .quantity{
+        padding-left: 2rem;
+    }
+    
+    .shopping-cart .total{
+        color: rgb(4, 24, 84);
+        font-size: 2rem;
+        text-align: center;
+        font-weight:700 ;
+    }
+    .btn{
+        text-align: center;
+        color:rgb(4, 24, 84);
+        font-size: 1.5rem;
+        border: 0.2rem solid rgb(4, 24, 84);
+        padding: 2rem ;
+        display: flex;
+        align-items: center;
+        margin-top: 1rem;
+        justify-content: center;
+        border-radius: 2rem;
+        font-weight: 700;
+        margin: 1rem;
+        width: 20rem;
+       
+    }
+    .btn:hover{
+        background-color: orange;
+        font-size: 2rem;
+        cursor: pointer;
+        color: white;
+    }
+    .header .shopping-cart.active{
+        right: 3rem;                                              /* . compulsory without space*/
+        transition: 0.5s linear;
+     }
+    
+     .header .login-form{
+        position: absolute;
+        top: 120%;
+        right:-110%;
+        width: 30rem;
+        box-shadow: var(--box-shadow);
+        padding: 4rem 2rem;
+        border-radius: 1rem;
+        background-color: #fff;
+        text-align: center;
+     }
+     .header .login-form h3{
+        font-size: 2.5rem;
+        padding-bottom: 4rem;
+        color: #022538;
+        text-transform: capitalize;
+     }
+     .header .login-form  .box{
+        width: 100%;
+        margin: 1rem 0;
+        background-color: #eee;
+        border-radius: 1rem;
+        padding: 1rem;
+        font-size: 2rem;
+        color: black;
+        text-transform: none;
+    }
+    .header .login-form p{
+        font-size: 1rem;
+        padding: .5rem;
+        font-weight: 500;
+        
+    }
+    .header .login-form p a{
+        color: orange;
+    }
+    .header .login-form.active{
+        right: 3rem;                                              /* . compulsory without space*/
+        transition: 0.5s linear;
+     }
+    
+    
+    
+    
+    
+    
+    
+    
+     @media (max-width:980px){
+        html{
+            font-size: 55%;
+        }
+        .header{
+            padding: 2rem;
+        }
+        section{
+            padding: 2rem;
+        }
+    
+     }
+    
+     @media (max-width:760px){
+    
+        #menu-btn{
+            display: inline-block;
+        }
+        .header .navbar{
+            position: absolute;
+            top: 110%;
+            right: -110%;
+            width: 30rem;
+            box-shadow: var(--box-shadow);
+            border-radius: 1rem;
+            background-color: white;
+        }
+        .header .navbar a{
+            display: block;
+            font-size: 2rem;
+            margin: 2rem;
+        }
+        .header .navbar.active{
+            right: 2rem;
+            transition: 0.5s linear;
+        }
+        .header .search-form{
+            width: 90%;
+        }
+    
+     }
+    
+     
+     @media (max-width:450px){
+        html{
+            font-size: 50%;
+        }
+     }
+    
+    
+     /*HOME SECTION*/
+    
+    section{
+        padding: 2rem 9%;
+    }
+    .home{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-image: url('/mai.jpeg');
+       
+        background-size: cover;
+        background-position: top;
+        padding-top: 17rem;
+        padding-bottom: 10rem;
+        
+    }
+    .home .content{
+        text-align: center;
+        width: 70rem;
+    }
+    .home .content h3{
+        font-size: 3rem;
+        margin-top: 8rem;
+        color: #001724;
+        font-weight: 700;
+    }
+    .home .content h3 span{
+        font-size: 3rem;
+        color: orange;
+        font-weight: 700;
+    }
+    
+    .home .content p{
+        font-size: 1.2rem;
+        margin-top: 2rem;
+        color:#022538;
+        font-weight: 600;
+        line-height: 2rem;
+    }
+    .content .btn{
+        position: relative;
+        left: 35%;
+    }
+    @media (max-width:760px){
+        .content .btn{
+            position: relative;
+            left: 24%;
+        }
+    
+    }
+    
+    .heading{
+        text-align: center;
+        font-size: 3rem;
+        font-weight: 700;
+        color: #022538;
+        padding: 3rem 0;
+    }
+    .heading span{
+        background: orange;
+        color: white;
+        display: inline-block;
+        padding: 0.5rem 3rem;
+        clip-path: polygon(100% 0 , 90% 50%, 100% 100%,0% 100%,10% 50%,0% 0%);
+    }
+    .box .image1{
+        background-image: url('/c1.jpg');
+        background-size: cover;
+        background-position: center;
+        height: 18rem;
+        width: 22rem;
+        margin-left: 15%;
+        margin-top: 2rem;
+        margin-bottom: 2rem;
+    }
+    .box .image2{
+        background-image: url('/c2.png');
+        background-size: cover;
+        background-position: center;
+        height: 18rem;
+        width: 19rem;
+        margin-left: 20%;
+        margin-top: 2rem;
+        margin-bottom: 2rem;
+    }
+    .box .image3{
+        background-image: url('/c3.png');
+        background-size: cover;
+        background-position: center;
+        height: 18rem;
+        width: 22rem;
+        margin-left: 15%;
+        margin-top: 2rem;
+        margin-bottom: 2rem;
+    }
+    
+    .features .box-container{
+        
+        display: grid;
+        gap: 2rem;
+        grid-template-columns: repeat(auto-fit,minmax(30rem,1fr));
+    }
+    .features  .box-container .box{
+        padding: 3rem 1.5rem 3rem 3rem;
+        background-color: #fff;
+        outline: var(--outline);
+        outline-offset: -1rem;
+        text-align: center;
+        box-shadow: var(--box-shadow);
+    }
+    .features  .box-container .box:hover{
+        outline: var(--outline);
+        outline-offset: 0rem;
+        outline-color: #0e141900;
+    
+    }
+    .features  .box-container .box h3{
+        margin: 2rem;
+        font-size: 2.5rem;
+        line-height: 2rem;
+    }
+    .features  .box-container .box p{
+        font-size: 1.2rem;
+        font-weight: 500;
+        margin: 2rem 0rem;
+    }
+    .box .btn{
+    
+        margin-left: 13%;
+    }
+    @media (max-width:680px){
+        .box .image1{
+            margin-left: 24%;
+        }
+        .box .image2{
+            margin-left: 28%;
+        }
+    
+    }
+    @media (max-width:460px){
+        .box .image1{
+            margin-left: 18%;
+        }
+        .box .image2{
+            margin-left: 20%;
+        }
+    }
+    
+    
+    /*                                             PRODUCTS                                     */
+    .products  .product-slider{
+        padding: 2rem;
+    }
+    
+    .products  .product-slider .box{
+        background-color: #fff;
+        border-radius: 1rem;
+        text-align: center;
+        padding: 3rem 1rem;
+        outline-offset: -1rem;
+        outline: var(--outline);
+        box-shadow: var(--box-shadow);
+        transition: 0.2s linear;
+        margin: 2rem 0.5rem;
+        margin-right: 7rem;
+    }
+    .products  .product-slider .box:hover{
+        outline-offset: 0rem;
+        outline: var(--outline);
+    }
+    .products  .product-slider .box img{
+        height: 25rem;
+        width: 30rem;
+    }
+    .products  .product-slider .box h3{
+        font-size: 2.5rem;
+        font-weight: 700;
+        color: #033c5e;
+    }
+    .products  .product-slider .box .price{
+        font-size: 2rem;
+        font-weight: 600;
+        color: #022538;
+        padding: 1rem 0;
+    }
+    .products  .product-slider .box .stars i{
+        font-size: 1.6rem;
+        font-weight: 700;
+        color: orange;
+        padding: 0.5rem 0;
+    }
+    
+    .swiper-wrapper1{
+        display: flex;
+        overflow: auto;
+        margin-bottom: 2rem;
+    }
+    .swiper-wrapper2{
+        display: flex;
+        overflow: auto;
+        padding: 3rem 0;
+    }
+    
+    
+    
+    /*                  categories        */
+    .categories .box{
+        background-color: #fff;
+        border-radius: 1rem;
+        text-align: center;
+        padding: 3rem 0.5rem;
+        outline-offset: -1rem;
+        outline: var(--outline);
+        box-shadow: var(--box-shadow);
+        transition: 0.2s linear;
+        margin: 2rem;
+    }
+    .categories .box:hover{
+        outline-offset: 0rem;
+        outline: var(--outline);
+    }
+    .categories .box img{
+        height: 20rem;
+        width: 24rem;
+    }
+    .categories .box h3{
+        font-size: 2rem;
+        font-weight: 500;
+        color: #033c5e;
+        margin: 1rem;
+    }
+    .categories .box p{
+        font-size: 2rem;
+        font-weight: 600;
+        color: #02121b;
+        margin: 1rem;
+    }
+    .categories .box p span{
+        font-size: 2.1rem;
+        font-weight: 600;
+        color: orange;
+     
+    }
+    
+    
+    .box-container{
+        display: grid;
+        gap: 1rem;
+        grid-template-columns: repeat(auto-fit,minmax(30rem,1fr));
+    }
+    
+    
+    
+    
+    /*                        reviews        */
+    .reviews h1{
+        margin-top: 4rem;
+    }
+    .reviews .box{
+        background-color: #fff;
+        border-radius: 1rem;
+        text-align: center;
+        padding: 3rem 1rem;
+        outline-offset: -1rem;
+        outline: var(--outline);
+        box-shadow: var(--box-shadow);
+        transition: 0.2s linear;
+        margin: 2rem 0.5rem;
+        margin-right: 7rem;
+    }
+    .reviews .box:hover{
+        outline-offset: 0rem;
+        outline: var(--outline);
+    }
+    .reviews .box img{
+        height: 25rem;
+        width: 25rem;
+        border: 2px solid black;
+        border-radius: 50%;
+        margin: 2rem;
+    }
+    .reviews .box p{
+        padding: 1rem;
+        font-size: 1.5rem;
+        margin-top: 2rem;
+        color: #022538;
+    }
+    .reviews .box h3{
+        margin: 1rem;
+        font-size: 2.5rem;
+        color: #022538;
+    }
+    .reviews .box .stars i{
+        font-size: 1.5rem;
+        color: orange;
+    }
+    
+    .wrapper{
+        display: flex;
+        overflow: auto;
+        padding: 3rem 0;
+    }
+    
+    
+    /*                          blogs section                  */
+    .box-container{
+        display: grid;
+        gap: 1rem;
+        grid-template-columns: repeat(auto-fit,minmax(30rem,1fr));
+    }
+    
+    .blogs .box{
+        background-color: #fff;
+        border-radius: 1rem;
+        text-align: center;
+        padding: 3rem 2rem;
+        outline-offset: -1rem;
+        outline: var(--outline);
+        box-shadow: var(--box-shadow);
+        margin: 2rem;
+        
+    
+    }
+    .blogs .box:hover{
+        outline-offset: 0rem;
+        outline: var(--outline);
+    }
+    .blogs .box img{
+        height: 20rem;
+        width: 24rem;
+        margin: 2rem;
+    }
+    
+    .blogs .icons {
+        display: flex;
+        justify-content: space-between;
+        padding-bottom: 2rem;
+        border-bottom: 2px solid rgb(157, 152, 152);
+        padding-left: 1rem;
+    }
+    .blogs .icons a {
+        
+        color: #b3b3b3;
+        font-size: 1.4rem;
+        font-weight: 700;
+        padding-left: 1rem;
+    }
+    .blogs .icons a i {
+        color: orange;
+        font-size: 1.3rem;
+        font-weight: 700;
+        padding-right: 0.17rem;
+    }
+    .blogs .icons a i:hover{
+        font-size: 1.9rem;
+        font-weight: 900;
+    }
+    .blogs h3{
+        font-size: 1.4rem;
+        margin: 1.5rem 0;
+        color: #08496d;
+        font-weight: 700;
+    }
+    .blogs p{
+        font-size: 1rem;
+        margin-bottom: 4rem;
+        color: #022538;
+        font-weight: 600;
+    
+    }
+    .b{
+        font-size: 1.5rem;
+        
+        font-weight: 700;
+        color: #022538;
+        background-color: #e7e5e5;
+        border: 1px solid #022538;
+        padding: 1.5rem 3rem;
+        border-radius: 1.5rem;
+        margin-bottom: 2rem;
+    }
+     .b:hover{
+        background-color: orange;
+        color: white;
+        font-size: 2rem;
+    }
+    
+    
+    
+    /*              footer           */
+    .footer{
+        background-color: #fff;
+        display: flex;
+        justify-content: space-evenly;
+    }
+    
+    .footer .box img{
+        height: 4rem;
+        width: 15rem;
+    }
+    .footer .box h3{
+        font-size: 2.5rem;
+        color: #022538;
+        margin: 1rem;
+    }.footer .box h3 i{
+        font-size: 2.5rem;
+        color: orange;
+        margin: 1rem;
+    }
+    
+    .footer  .box a{
+        display: block;
+        font-size: 1.5rem;
+        color: #5a5858;
+        font-weight: 700;
+        padding: 0.5rem;
+    }
+    .footer  .box a:hover{
+        font-size: 1.8rem;
+        color: orange;
+    }
+    .footer  .box a i{
+        color: orange;
+        font-size: 1.5rem;
+        padding-right: 0.3rem;
+    }
+    .footer  .email{
+        background-color:rgb(239, 238, 238);
+        height: 3rem;
+        width: 30rem;
+        border: 1px solid whitesmoke;
+        border-radius: 1rem;
+        
+    }
+    .footer  .email:hover{
+        border:1px solid #02121b;
+        border-radius: 1rem;
+    }
+    .footer .b{
+        height: 3rem;
+        padding:0 2rem;
+        margin: 0 1rem;
+    }
+    .footer img{
+        position: relative;
+        top: 7%;
+    }
+    .footer .box p{
+        font-size: 1.4rem;
+        font-weight: 600;
+        padding: 1rem;
+        margin: 1rem 0;
+        color: #033c5e;
+    }
+    .footer .box #b4 a{
+        background-color: #eee;
+        color: #02121b;
+        display: inline-block;
+        font-size: 1.8rem;
+        font-weight: 700;
+        margin: 1rem;
+        padding: 1.5rem;
+        border: 1px solid #b3b3b3;
+        border-radius: 1rem;
+        
+    }
+    .footer .box #b4 a:hover{
+        color: orange;
+        font-size: 2rem;
+    }
+    .footer .box{
+        
+        margin: 1rem  ;
+    }
+    .footer .end2{
+        display: flex;
+        justify-content: space-between;
+        padding-bottom: 4rem;
+        border-bottom: 2px solid  silver;
+        
+    }
+    @media (max-width:1100px){
+        .footer .end2{
+        display: grid;
+        gap: 1rem;
+        grid-template-columns: repeat(auto-fit,minmax(30rem,1fr));
+        }
+    }
+    
+    .ending h1{
+        padding: 5rem;
+        background-color: #f6f6f6;
+        text-align: center;
+        color: #030e48;
+    }
+    .ending span{
+        color: orange;
+    }
+    
+    
+    #scroller::-webkit-scrollbar {
+        display: none;
+      }
+    #scroller-in .box{
+       
+        animation-name:scroll;
+        animation-duration: 15s;
+        animation-timing-function: linear;
+        animation-iteration-count: infinite;
+        transition: all linear 0.3s;
+      }
+    
+    .wrapper .box{
+       
+        animation: scroll 15s linear infinite;
+        
+        transition: all linear 0.3s;
+      }
+    
+    
+    
+      
+      
+    
+    
+      @keyframes scroll {
+        from {
+          transform: translateX(0);
+        }
+        to {
+          transform: translateX(-495%);
+        }
+      }
+</style>
+</body>
+</html>
