@@ -39,7 +39,7 @@ body{
     padding: 2rem 9%;
     background-color:#fff;
     box-shadow: var(--box-shadow);
-    height: 5rem;
+    height: 3rem;
 }
 
 
@@ -63,7 +63,7 @@ body{
  .header .search-form input{
      height: 100%;                                                   
      width: 100%;
-     font-size: 2rem;
+     font-size: 1.8rem;
      text-transform: none;
      background: none;
      color: black;
@@ -74,7 +74,8 @@ body{
  .search-form{
     width: 30rem;
     margin: 3rem;
-    padding: 0;
+    padding: 0 1rem;
+    margin-top: 4rem;
  }
 
  .fas {
@@ -141,7 +142,7 @@ body{
     width: 100%;
     padding: 90px 0;
     background: #fff;
-    z-index: 5ß;
+    z-index: 5;
 
 }
 .home1 {
@@ -151,7 +152,7 @@ body{
     animation: gradientAnimation 10s ease infinite; /* Apply animation */
     padding-top: 17rem;
     padding-bottom: 10rem;
-    height: 40rem;
+    height: 20rem;
 }
 
 @keyframes gradientAnimation {
