@@ -106,6 +106,14 @@ body{
 
  }
 
+ @media (max-width:500px){
+    .dsu .img{
+        height: 20rem;
+        width: 20rem;
+    }
+
+ }
+
  @media (max-width:1400px){
 
     #menu-btn{
