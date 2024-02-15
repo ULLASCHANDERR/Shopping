@@ -1,11 +1,11 @@
-:root{
-    --box-shadow:0rem 1.5rem 1rem rgba(0,0,0,.3);
-    --border:2rem solid rgba(0,0,0,.1);
-    --outline:1rem solid rgba(0,0,0,.1);
-    --outline-hover:2rem solid  black;
+:root {
+    --box-shadow: 0rem 1.5rem 1rem rgba(0, 0, 0, .3);
+    --border: 2rem solid rgba(0, 0, 0, .1);
+    --outline: 1rem solid rgba(0, 0, 0, .1);
+    --outline-hover: 2rem solid black;
 }
 
-*{
+* {
     font-family: Arial, Helvetica, sans-serif;
     margin: 0;
     padding: 0;
@@ -14,20 +14,19 @@
     text-transform: capitalize;
     transition: all 0.3s linear;
     color: black;
-  
 }
 
-html{
+html {
     font-size: 63%;
     overflow-x: hidden;
     width: 100%;
 }
 
-body{
+body {
     background-color: whitesmoke;
 }
 
-.header{
+.header {
     position: fixed;
     top: 0;
     left: 0;
@@ -37,92 +36,96 @@ body{
     align-items: center;
     justify-content: space-between;
     padding: 2rem 9%;
-    background-color:#fff;
+    background-color: #fff;
     box-shadow: var(--box-shadow);
     height: 3rem;
 }
 
-
-.header .navbar a{
+.header .navbar a {
     font-size: 1.4rem;
     margin: 0 1.5rem;
-    color:#144273;
-    position: relative;
-    left: 10rem;
+    color: #144273;
 }
-.header .navbar a:hover{
+
+.header .navbar a:hover {
     color: #448d9c;
     font-size: 1.5rem;
 }
-#menu-btn{
+
+#menu-btn {
     display: none;
 }
 
- 
- 
- .header .search-form input{
-     height: 100%;                                                   
-     width: 100%;
-     font-size: 1.8rem;
-     text-transform: none;
-     background: none;
-     color: black;
-     padding: 0 1.5rem;
-     border-radius: 1.5rem;
- }
+.header .search-form input {
+    height: 100%;
+    width: 100%;
+    font-size: 1.8rem;
+    text-transform: none;
+    background: none;
+    color: black;
+    padding: 0 1.5rem;
+    border-radius: 1.5rem;
+}
 
- .search-form{
+.search-form {
     width: 30rem;
     margin: 3rem;
     padding: 0 1rem;
     margin-top: 4rem;
- }
+}
+.search-form:hover{
+    background-color: #fff;
+}
 
- .fas {
+.fas {
     display: flex;
     position: relative;
     bottom: 1.6rem;
     font-size: 1.3rem;
 }
 
- .icons{
-    display: flex;
-    align-items: center;
-    height: 10rem;
-    width: 10rem;
-    color: #144273;
- }
+.fas:hover{
+    color: #448d9c;
+    font-size: 1.7rem;
+    font-weight: 700;
+}
 
- @media (max-width:980px){
-    html{
+@media (max-width: 980px) {
+    html {
         font-size: 55%;
     }
-    .header{
+
+    .header {
         padding: 1rem;
     }
-    section{
+
+    section {
         padding: 2rem;
     }
+}
 
- }
-
- @media (max-width:500px){
-    .dsu .img{
+@media (max-width: 500px) {
+    .dsu .img {
         height: 20rem;
         width: 20rem;
     }
+}
 
- }
-
- @media (max-width:1400px){
-
-    #menu-btn{
+@media (max-width: 1400px) {
+    #menu-btn {
         display: flex;
         font-size: 2rem;
-        margin-top: 2rem;
+        margin-top: 2.5rem;
     }
 
-    .header .navbar{
+    #menu-btn:hover{
+        font-size: 3rem;
+        font-weight: 500;
+        color: #448d9c;
+    }
+
+
+    .header .navbar {
         position: absolute;
         top: 110%;
         right: -110%;
@@ -131,19 +134,20 @@ body{
         border-radius: 1rem;
         background-color: white;
     }
-    .header .navbar a{
+
+    .header .navbar a {
         display: block;
         font-size: 2rem;
         margin: 2rem;
     }
-    .header .navbar.active{
+
+    .header .navbar.active {
         right: 2rem;
         transition: 0.5s linear;
     }
+}
 
- }
-
- section{
+section {
     padding: 2rem 0;
     position: relative;
     float: left;
@@ -151,13 +155,13 @@ body{
     padding: 90px 0;
     background: #fff;
     z-index: 5;
-
 }
+
 .home1 {
     width: 100%;
     background: linear-gradient(-35deg, #002699, #1a53ff, #fa0015, #fa6c00);
     background-size: 300% 300%;
-    animation: gradientAnimation 10s ease infinite; /* Apply animation */
+    animation: gradientAnimation 10s ease infinite;
     padding-top: 17rem;
     padding-bottom: 10rem;
     height: 20rem;
@@ -167,55 +171,55 @@ body{
     0% {
         background-position: 0% 50%;
     }
+
     50% {
         background-position: 100% 50%;
     }
+
     100% {
         background-position: 0% 50%;
     }
 }
 
- .home2{
+.home2 {
     padding: 2rem 0;
     position: relative;
     float: left;
     width: 100%;
- }
+}
 
- .home3{
+.home3 {
     padding: 2rem 0;
     position: relative;
     float: left;
     width: 100%;
     background: #e5e6e7;
     height: 200rem;
- }
+}
 
- .part1{
+.part1 {
     padding: 2rem 0;
     position: relative;
     float: left;
     width: 100%;
     height: 30rem;
     background: white;
- }
+}
 
 .part2 {
-    padding: 1rem ;
+    padding: 1rem;
     position: relative;
     width: 100%;
     background: #eaeef2;
     height: 10rem;
     display: flex;
     align-items: center;
-    margin: 0 auto; 
+    margin: 0 auto;
     justify-content: center;
 }
 
 .part2 img {
-    margin-right: 1rem; 
-    width: 2rem; 
-    height: auto; 
+    margin-right: 1rem;
+    width: 2rem;
+    height: auto;
 }
-
- 
