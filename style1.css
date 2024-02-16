@@ -300,12 +300,14 @@ section {
 }
 .box1{
     margin: 1rem 0;
-    width:50rem;
+    width: 100px;
+    height: 50%; 
     border-radius: 2rem;
     box-shadow: var(--box-shadow);
     border: var(--border);
     background-color: white;
 }
+
 .box2 {
     margin: 8rem 0;
     width: 65%;
@@ -321,6 +323,8 @@ section {
     background-repeat: no-repeat;
     background-size: cover;
 }
+
+    
 
 .box1 content-box h1{
     margin-left: 5rem;
