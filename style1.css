@@ -17,9 +17,6 @@
 }
 
 html {
-    scroll-behavior: smooth;
-}
-html {
     font-size: 63%;
     overflow-x: hidden;
     width: 100%;
@@ -38,7 +35,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 2rem 9%;
+    padding: 2rem 5%; /* Adjusted padding */
     background-color: #fff;
     box-shadow: var(--box-shadow);
     height: 3rem;
@@ -61,7 +58,7 @@ body {
 
 .header .search-form input {
     height: 100%;
-    width: 100%;
+    width: 80%; /* Adjusted width */
     font-size: 1.8rem;
     text-transform: none;
     background: none;
@@ -71,13 +68,13 @@ body {
 }
 
 .search-form {
-    height:3rem;
-    width: 50rem;
-    margin: 3rem;
+    height: 3rem;
+    margin: 3rem auto; /* Centering horizontally */
     padding: 0 1rem;
     margin-top: 4rem;
 }
-.search-form:hover{
+
+.search-form:hover {
     background-color: #fff;
 }
 
@@ -89,7 +86,7 @@ body {
     font-size: 2rem;
 }
 
-.fas:hover{
+.fas:hover {
     color: #180781;
     font-size: 2.5rem;
     font-weight: 700;
@@ -124,18 +121,17 @@ body {
         right: 1rem;
     }
 
-    #menu-btn:hover{
+    #menu-btn:hover {
         font-size: 3rem;
         font-weight: 500;
         color: #448d9c;
     }
 
-
     .header .navbar {
         position: absolute;
         top: 110%;
         right: -110%;
-        width: 30rem;
+        width: 80%; /* Adjusted width */
         box-shadow: var(--box-shadow);
         border-radius: 1rem;
         background-color: white;
@@ -162,6 +158,9 @@ section {
     background: #fff;
     z-index: 5;
 }
+
+/* Other CSS rules remain unchanged */
+
 
 .home1 {
     display: flex;
