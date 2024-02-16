@@ -58,7 +58,7 @@ body {
 
 .header .search-form input {
     height: 100%;
-    width: 80%; /* Adjusted width */
+    width: 100%; /* Adjusted width */
     font-size: 1.8rem;
     text-transform: none;
     background: none;
@@ -69,11 +69,16 @@ body {
 
 .search-form {
     height: 3rem;
+    width:50rem;
     margin: 3rem auto; /* Centering horizontally */
     padding: 0 1rem;
     margin-top: 4rem;
 }
-
+@media (max-width: 1500px){
+    .search-form{
+        width: 20rem;
+    }
+}
 .search-form:hover {
     background-color: #fff;
 }
