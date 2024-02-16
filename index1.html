@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+    
+<head>
+<body>
+    
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hackathon</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <link rel="stylesheet" href="style1.css">
+    <script src="index1.js"></script>
+
+
+    <header class="header">
+
+        <div class="dsu">
+            <img src="https://www.dataiku.com/wp-content/uploads/2021/07/DSU_logo_cmyk.png;" alt="" width="40rem" height="40rem">
+        </div>
+
+
+        <form action="" class="search-form">
+            <input type="search" id="search-box" placeholder="Search Here">  
+            <label for="search-box" class="fas fa-search"></label>
+        </form>
+
+
+        <nav class="navbar">
+            <a href="#" onclick="goToHome()">Home</a>
+            <a href="#" onclick="goToAbout()">About</a>
+            <a href="#" onclick="goToPoster()">Poster</a>
+            <a href="#" onclick="goToRegister()">Register</a>
+          
+        
+        </nav>
+
+        <div class="icons">
+            <div class="fas fa-bars" id="menu-btn"></div>
+        </div>
+  </header>
+
+
+  <section class="home1" >
+    <div class="background">
+        <img src="https://cdsimer.edu.in/images/GL/cdsimer/CDSIMER_14_1.jpg" alt="Background Image" width="400rem" height="200rem">
+    </div>
+    <div class="content">
+        <h2>30 Hour Hackathon</h2>
+        <p>First ever 24 hours Hospitality & Event Hackathon in partnership with LETU</p>
+        <p>March 1, 2023 - March 3, 2024 </p>
+    </div>
+</section>
+
+
+
+<section class="home3">
+  <div class="background">
+      <div class="box1 content-box">
+          <h1>About :</h1>
+          <h2>The 30 Hour Intercontinental Innovo Quest is organized by Dayananda Sagar Institutions, India and LeTOURNEAU University, US</h2>
+          <h2>Open to All DSU and LETU Students</h2>
+          <div class="dsu1">
+
+          </div>
+          <div class="letu">
+            
+          </div>
+          <div class="yo">
+            <a href="https://hack2skill.com/hack/iciq24#about-link"><h3>Register !!!</h3> </a>
+          </div>
+      </div>
+      <div class="box2 image-box">
+        <p></p>
+      </div>
+  </div>
+</section>
+
+  <section class="footer">
+    <div class="m">
+        <div class="end2 ">
+            <div class="box">
+                <h3>Hosted by "DSU X LETU"</h3>
+                <h4>DSU Main Campus: </h4>
+                <h4> Devarakaggalahalli, Harohalli,</h4>  
+                <h4>Kanakapura Road, Ramanagara Dt.,</h4>
+                  <h4> Bengaluru - 562 112</h4>   
+                <p>Connect with us on : </p>
+                <div class="share" id="b4">
+                    <a href="#" class="fab fa-facebook-f"></a>
+                    <a href="#" class="fab fa-twitter"></a>
+                    <a href="#" class="fab fa-instagram"></a>
+                    <a href="#" class="fab fa-linkedin"></a>
+                </div>
+            </div>
+            <div class="box">
+                <h3>Contact </h3>
+                <a href="#" class="links"><i class="fas fa-phone"></i>+91-8296416161</a>
+                <a href="#" class="links"><i class="fas fa-phone"></i>+91-5678899999</a>
+                <a href="#" class="links"><i class="fas fa-envelope"></i>E-mail: dsat@dsu.edu.in / enquiry@dsu.edu.in /</a>
+                <a href="#" class="links"><i class="fas fa-map-marker-alt"></i>Bangalore India</a>
+            </div>
+            
+            <div class="box" id="box1">
+                <h3>newsletter</h3>
+                <p>Subscribe for latest updates</p>
+
+                <input type="email" placeholder="Your email" class="email">
+            </div>
+
+        </div>
+    </div>
+</section>
+
+
+<script src="Shopping.js"></script>
+
+</body>
+<div id="cursor"></div>
+    <div id="cursor-blur"></div>
+
+</html>
+  <footer class="part2">
+    <img src="https://www.dataiku.com/wp-content/uploads/2021/07/DSU_logo_cmyk.png" alt="" width="2rem" height="auto">
+    <h1>DSU University </h1>
+</footer>
+<p>
+    <div class="ending">
+        <h4>©️ Created By <span>TEAM HACKATHON</span> | All Rights Reserved</h4>
+        </div>
+    </p>
+
+</head>
+
+<script>
+    function goToHome() {
+        document.querySelector('.home1').scrollIntoView({
+            behavior: 'smooth'
+        });
+    }
+
+    function goToAbout() {
+        
+        document.querySelector('.home3').scrollIntoView({
+            behavior: 'smooth'
+        });
+    }
+    function goToRegister() {
+        document.querySelector('.yo').scrollIntoView({
+            behavior: 'smooth'
+        });
+    }
+
+    function goToPoster() {
+        
+        document.querySelector('.image-box').scrollIntoView({
+            behavior: 'smooth'
+        });
+    }
+</script>
+
+<body>
