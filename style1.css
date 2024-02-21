@@ -263,6 +263,7 @@ section {
     margin-left: 9rem;
     height:20rem;
     width:40rem;
+    border-radius: 2rem;
     background-size: contain;
     background-repeat: no-repeat;
     background-image: url(https://cdsimer.edu.in/images/2022/12/23/cd-2.jpg);
@@ -272,6 +273,8 @@ section {
     margin-left: 9rem;
     height:20rem;
     width:30rem;
+    border-radius: 2rem;
+
     background-size: contain;
     background-repeat: no-repeat;
     background-image: url(https://res.cloudinary.com/highereducation/image/upload/w_740,h_416,c_fill,f_auto,fl_lossy,q_auto/v1/TheBestSchools.org/letourneau-university.jpg);
@@ -300,13 +303,30 @@ section {
 }
 .box1{
     margin: 1rem 0;
-    width: 65%;
+    width:100px;
     height: 50%; 
     border-radius: 2rem;
     box-shadow: var(--box-shadow);
     border: var(--border);
     background-color: white;
 }
+@media (max-width: 600px){
+    .content-box{
+        width: 20rem; /* Adjusted for better responsiveness */
+    }
+    .dsu1{
+        margin-left: 5rem;
+        height:15rem;
+        width:25rem;
+  }
+    .letu{ 
+        margin-left: 5rem;
+        height:13rem;
+        width:25rem;
+        }
+}
+
+
 
 .box2 {
     margin: 8rem 0;
@@ -539,7 +559,7 @@ section {
 .ending {
     padding: 0rem 1rem;
     position: relative;
-    width: 96%;
+    width: 97%;
     background: #eaeef2;
     height: 2rem;
     display: flex;
