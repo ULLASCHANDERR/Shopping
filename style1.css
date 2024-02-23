@@ -334,7 +334,7 @@ section {
     border-radius: 2rem;
     box-shadow: var(--box-shadow);
     border: var(--border);
-    background-image: url(Poster.jpg);
+    background-image: url(p1.jpg);
     height: 50px;
     width: 100px;
     background-repeat: no-repeat;
@@ -1024,7 +1024,7 @@ section {
 .part2 {
     padding: 0.5em;
     position: relative;
-    width: 99.5%; /* Adjusted width to a percentage */
+    width: 100%; /* Adjusted width to a percentage */
     background: rgb(34, 33, 33);
     height: 6rem;
     display: flex;
@@ -1043,6 +1043,14 @@ section {
     align-items: center;
     margin: 0 auto;
     justify-content: center;
+}
+@media (max-width:800px){
+  .part2{
+    width: 98.5%;
+  }
+  .ending{
+    width: 97%;
+  }
 }
 
 .links i.fas { 
