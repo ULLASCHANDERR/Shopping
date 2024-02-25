@@ -24,16 +24,41 @@ body {
     background-color: whitesmoke;
 }
 
+.subheader {
+    background-color: #dddddd;
+    padding: 1rem 5%; /* Adjusted padding */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    top: 6rem; /* Adjusted top position */
+    left: 0;
+    right: 0;
+    z-index: 1000;
+}
+
+.subheader a {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    margin: 0 1.5rem;
+    font-size: 1.2rem;
+}
+
+.subheader a:hover {
+    color: #448d9c;
+}
+
 .header {
     position: fixed;
     top: 0;
     left: 0;
     right: 0;
+    display: flex;
     z-index: 1000;
     display: flex;
     align-items: center;
-    justify-content: space-between;
-    padding: 2rem 5%; /* Adjusted padding */
+    justify-content: center;
+    padding: 1rem 5%; /* Adjusted padding */
     background-color: #fff;
     box-shadow: var(--box-shadow);
     height: 4rem;
