@@ -11,7 +11,7 @@
     text-decoration: none;
     text-transform: capitalize;
     transition: all 0.3s linear;
-    color: black;
+    color:aqua;
 }
 
 html {
@@ -571,6 +571,7 @@ section {
 
 .arena2 p {
     font-size: 3rem;
+    margin-left: 3rem;
 }
 
 .arena2 h4 {
@@ -681,6 +682,11 @@ section {
 }
 
 /*              home6            */
+
+
+body {
+    background-color: whitesmoke;
+}
 .home6 {
     background-color: azure;
     height: auto;
@@ -688,6 +694,7 @@ section {
     flex-direction: column; /* Arrange items vertically */
     align-items: center; /* Center items horizontally */
     justify-content: center; /* Center items vertically */
+  
 }
 
 .home6 .c1 {
@@ -705,212 +712,395 @@ section {
     font-size: 3rem;
     margin-top: 1rem;
 }
-
 .yogi {
-    height: 80px;
-    width: 250px;
-    background-color: orange;
-    border: 2px solid black;
-    border-radius: 12%;
-    margin-top: 10rem; /* Adjust margin-top as needed */
+    margin: 15rem 0rem;
     display: flex;
     justify-content: center;
     align-items: center;
-    transition: background-color 0.3s ease; /* Smooth transition for hover effect */
+    min-height: 10rem;
+    background-color: #000000;
+    padding: 2rem 0;
+    padding-left: 8rem;
+    border-radius: 4rem;
+    
 }
-.yogi:hover{
-    height: 84px;
-    width: 257px;
-}
-.yogi p {
-    color:rgb(0, 0, 0);
-    font-size: 3rem;
-    margin: 0; /* Remove default margin */
-}
-
 .yogi a {
-    text-decoration: none; /* Remove underline */
+    position: relative;
+    display: inline-block;
+    padding: 25px 30px;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    color: #03e9f4;
+    font-size: 1.2rem;
+    font-weight: bold;
+    transition: .5s;
+    overflow: hidden;
+    margin-right: 70px;
 }
 
-.yogi p:hover {
-    font-size: 4rem;
+.yogi a p{
+    color: #03e9f4;
+    font-size: 2rem;
 }
-
-
-
+.yogi a p:hover{
+    color: black;
+}
+.yogi a:hover{
+    background-color:#03e9f4 ;
+    color:#050801;
+    box-shadow:0 0 5px #03e9f4,
+               0 0 25px #03e9f4,
+               0 0 50px #03e9f4,
+               0 0 200px #03e9f4;
+    -webkit-box-reflect:below 1px linear-gradient(transparent, #0005);
+}
+a:first-child{
+    filter:hue-rotate(225deg);
+}
+a:last-child{
+    filter:hue-rotate(90deg);
+}
+a span{
+    position: absolute;
+    display: block;
+}
+a span:nth-child(1){
+    top:0;
+    left:0;
+    width:100%;
+    height:1px;
+    background: linear-gradient(90deg, transparent, #03e9f4);
+    animation: animate1 1s infinite;
+}
+@keyframes animate1 {
+    0%{
+        left: -100%;
+    }
+    100%{
+        left:100%;
+    }
+}
+a span:nth-child(2){
+    top:-100%;
+    right:0;
+    width:1px;
+    height:100%;
+    background: linear-gradient(180deg, transparent, #03e9f4);
+    animation: animate2 1s infinite;
+    animation-delay: .25s;
+}
+@keyframes animate2 {
+    0%{
+        top: -100%;
+    }
+    100%{
+        top:100%;
+    }
+}
+a span:nth-child(3){
+    bottom:0;
+    right:0;
+    width:100%;
+    height: 1px;
+    background: linear-gradient(270deg, transparent, #03e9f4);
+    animation: animate3 1s infinite;
+    animation-delay: .5s;
+}
+@keyframes animate3 {
+    0%{
+        right: -100%;
+    }
+    100%{
+        right: 100%;
+    }
+}
+a span:nth-child(4){
+    bottom:-100%;
+    left:0;
+    width:1px;
+    height: 100%;
+    background: linear-gradient(360deg, transparent, #03e9f4);
+    animation: animate4 1s infinite;
+    animation-delay: .75s;
+}
+@keyframes animate4 {
+    0%{
+        bottom: -100%;
+    }
+    100%{
+        bottom: 100%;
+    }
+}
 
 /*      terams          */
+:root {
+  --box-shadow: 0rem 1.5rem 1rem rgba(0, 0, 0, .3);
+  --outline: 0.5rem solid rgb(13, 165, 212);
+  --outline-hover: 1rem solid aqua;
+}
+* {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+  padding: 0;
+  border: none;
+  text-decoration: none;
+  text-transform: capitalize;
+  transition: all 0.3s linear;
+  color: black;
+}
+
+html {
+  font-size: 63%;
+  overflow-x: hidden;
+  width: auto;
+}
+
+body {
+  background-color: whitesmoke;
+}
+
 .teams{
-    background-color:rgb(23, 22, 167);
-    height:auto;
-    transform: skewY(-3deg); 
+  background-color:rgb(106, 205, 236);
+  height:65rem;
+  overflow: hidden; /* Hide overflow */
 }
 .teams .heading{
-    transform: skewY(3deg); 
-    color: white;
-    height: 10rem;
-    text-align: center;
-    padding: 1em;
-    margin-top: 2em;
+  color: white;
+  height: 10rem;
+  text-align: center;
+  padding: 1em;
+  margin-top: 2em;
 }
 
 .heading h1{
-    color: orange;
-    font-size: 3rem;
-    margin-top: 5rem;
- 
+  color: black;
+  font-size: 3rem;
+  margin-top: 5rem;
+
 }
 
 .box .image1{
-    border-radius: 3rem;
-    background-image: url(https://cdsimer.edu.in/images/2022/12/23/cd-2.jpg);
-    background-size: cover;
-    background-position: center;
-    height: 18rem;
-    width: 22rem;
-    margin: 2rem 0;
-    margin-left: auto;
-    margin-right: auto;
+  border-radius: 3rem;
+  background-image: url(1.anuj.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 22rem;
+  width: 22rem;
+  margin: 2rem 0;
+  margin-left: auto;
+  margin-right: 1.5rem;
 }
 .box .image2{
-    border-radius: 3rem;
-    background-image: url(https://cdsimer.edu.in/images/2022/12/23/cd-2.jpg);
-    background-size: cover;
-    background-position: center;
-    height: 18rem;
-    width: 22rem;
-    margin: 2rem 0;
-    margin-left: auto;
-    margin-right: auto;
+  border-radius: 3rem;
+  background-image: url(2.harsh.jpg);
+  background-size: cover;
+  background-position: top;
+  height: 22rem;
+  width: 22rem;
+  margin: 2rem 0;
+  margin-left: auto;
+  margin-right: 1.5rem;
 }
 .box .image3{
-    border-radius: 3rem;
-    background-image: url(https://cdsimer.edu.in/images/2022/12/23/cd-2.jpg);
-    background-size: cover;
-    background-position: center;
-    height: 18rem;
-    width: 22rem;
-    margin: 2rem 0;
-    margin-left: auto;
-    margin-right: auto;
+  border-radius: 3rem;
+  background-image: url(4.neha.jpg);
+  background-size: cover;
+  background-position: top;
+  height: 22rem;
+  width: 22rem;
+  margin: 2rem 0;
+  margin-left: auto;
+  margin-right: 1.5rem;
 }
 .box .image4{
-    border-radius: 3rem;
-    background-image: url(https://cdsimer.edu.in/images/2022/12/23/cd-2.jpg);
-    background-size: cover;
-    background-position: center;
-    height: 18rem;
-    width: 22rem;
-    margin: 2rem 0;
-    margin-left: auto;
-    margin-right: auto;
+  border-radius: 3rem;
+  background-image: url(3.vinay.jpg);
+  background-size: cover;
+  height: 22rem;
+  width: 22rem;
+  margin: 2rem 0;
+  margin-left: auto;
+  margin-right: 1.5rem;
 }
 .box .image5{
-    border-radius: 3rem;
-    background-image: url(https://cdsimer.edu.in/images/2022/12/23/cd-2.jpg);
-    background-size: cover;
-    background-position: center;
-    height: 18rem;
-    width: 22rem;
-    margin: 2rem 0;
-    margin-left: auto;
-    margin-right: auto;
+  border-radius: 3rem;
+  background-image: url(5.chetan.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 22rem;
+  width: 22rem;
+  margin: 2rem 0;
+  margin-left: auto;
+  margin-right: 1.5rem;
 }
 .box .image6{
-    border-radius: 3rem;
-    background-image: url(https://cdsimer.edu.in/images/2022/12/23/cd-2.jpg);
-    background-size: cover;
-    background-position: center;
-    height: 18rem;
-    width: 22rem;
-    margin: 2rem 0;
-    margin-left: auto;
-    margin-right: auto;
+  border-radius: 3rem;
+  background-image: url(6.arjun.jpg);
+  background-size: cover;
+  background-position: top;
+  height: 22rem;
+  width: 22rem;
+  margin: 2rem 0;
+  margin-left: auto;
+  margin-right: 1.5rem;
 }
 .box .image7{
-    border-radius: 3rem;
-    background-image: url(https://cdsimer.edu.in/images/2022/12/23/cd-2.jpg);
-    background-size: cover;
-    background-position: center;
-    height: 18rem;
-    width: 22rem;
-    margin: 2rem 0;
-    margin-left: auto;
-    margin-right: auto;
+  border-radius: 3rem;
+  background-image: url(7.ullas.jpg);
+  background-size: cover;
+  background-position: top;
+  height: 22rem;
+  width: 22rem;
+  margin: 2rem 0;
+  margin-left: auto;
+  margin-right: 1.5rem;
 }
 .box .image8{
-    border-radius: 3rem;
-    background-image: url(https://cdsimer.edu.in/images/2022/12/23/cd-2.jpg);
-    background-size: cover;
-    background-position: center;
-    height: 18rem;
-    width: 22rem;
-    margin: 2rem 0;
-    margin-left: auto;
-    margin-right: auto;
+  border-radius: 3rem;
+  background-image: url(8.yogesh.jpg);
+  background-size: cover;
+  background-position: top;
+  height: 22rem;
+  width: 22rem;
+  margin: 2rem 0;
+  margin-left: auto;
+  margin-right: 1.5rem;
 }
 .box .image9{
-    border-radius: 3rem;
-    background-image: url(https://cdsimer.edu.in/images/2022/12/23/cd-2.jpg);
-    background-size: cover;
-    background-position: center;
-    height: 18rem;
-    width: 22rem;
-    margin: 2rem 0;
-    margin-left: auto;
-    margin-right: auto;
-}
-.box .image10{
-    border-radius: 3rem;
-    background-image: url(https://cdsimer.edu.in/images/2022/12/23/cd-2.jpg);
-    background-size: cover;
-    background-position: center;
-    height: 18rem;
-    width: 22rem;
-    margin: 2rem 0;
-    margin-left: auto;
-    margin-right: auto;
+  border-radius: 3rem;
+  background-image: url(9.sachin.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 22rem;
+  width: 22rem;
+  margin: 2rem 0;
+  margin-left: auto;
+  margin-right: 1.5rem;
 }
 .box-container{
-    margin: 0rem 1rem;
-    border-radius: 5rem;
-    transform: skewY(3deg); 
-    margin-top: 3rem;
-    display: grid;
-    gap: 2rem;
-    grid-template-columns: repeat(auto-fit,minmax(30rem,1fr));
+  margin: 0rem 1rem;
+  border-radius: 5rem;
+  transform: skewY(3deg); 
+  margin-top: 3rem;
+  display: grid;
+  gap: 2rem;
+  grid-template-columns: repeat(auto-fit,minmax(30rem,1fr));
 }
 .box-container .box{
-    border-radius: 5rem;
-    padding: 3rem 1.5rem 3rem 3rem;
-    background-color:black;
-    outline: var(--outline);
-    outline-offset: -1rem;
-    text-align: center;
-    box-shadow: var(--box-shadow);
+  border-radius: 5rem;
+  padding: 3rem 1.5rem 3rem 3rem;
+  background-color:black;
+  outline: var(--outline);
+  outline-offset: -1rem;
+  text-align: center;
+  box-shadow: var(--box-shadow);
 }
+
+
+
 .box-container .box:hover{
-    outline: var(--outline);
-    outline-offset: 3rem;
-    outline-color: #0e141900;
+  outline: var(--outline);
+  outline-offset: 3rem;
+  outline-color: #0e141900;
 
 }
 .box-container .box h3{
-    margin: 2rem;
-    font-size: 2.5rem;
-    line-height: 2rem;
-    color: orange;
+  margin: 2rem;
+  font-size: 2.5rem;
+  line-height: 2rem;
+  color: orange;
 }
- .box-container .box p{
-    color: aqua;
-    font-size: 1.2rem;
-    font-weight: 500;
-    margin: 2rem 0rem;
- }
+.box-container .box p{
+  color: aqua;
+  font-size: 1.2rem;
+  font-weight: 500;
+  margin: 2rem 0rem;
+}
+
+.teams{
+  overflow: hidden; /* Hide overflow */
+}
+
+.box-container {
+  display: flex; /* Use flexbox for layout */
+  animation: scroll 25s linear infinite; /* Apply animation */
+}
+
+.box {
+  flex: 0 0 auto; /* Prevent flex items from growing */
+  margin-right: 20px; /* Adjust spacing between items */
+  border-radius: 5rem;
+  padding: 3rem 1.5rem 3rem 3rem;
+  background-color: black;
+  outline: var(--outline);
+  outline-offset: -1rem;
+  text-align: center;
+  box-shadow: var(--box-shadow);
+}
+
+.box:hover {
+  outline: var(--outline);
+  outline-offset: 3rem;
+  outline-color: #0e141900;
+}
+
+.box h3 {
+  margin: 2rem;
+  font-size: 2.5rem;
+  line-height: 2rem;
+  color: orange;
+}
+
+.box p {
+  color: aqua;
+  font-size: 1.2rem;
+  font-weight: 500;
+  margin: 2rem 0rem;
+}
+
+@keyframes scroll {
+  0% {
+      transform: translateX(0); /* Start scrolling from the beginning */
+  }
+  100% {
+      transform: translateX(calc(-100% - 90%)); /* Scroll to the left infinitely */
+  }
+}
+
+.p2{
+  display: none;
+}
 
 
+@media (max-width: 900px){
+  .teams{
+    height:150rem;
+  }
+  .p1{
+    display: none;
+  }
 
-/*              footer           */
+  .p2{
+    display: contents;
+  }
+
+  .box-container {
+    display: flex; /* Use flexbox for layout */
+    animation: scroll 20s linear infinite; /* Apply animation */
+  }
+
+  @keyframes scroll {
+    0% {
+        transform: translateX(0); 
+    }
+    100% {
+        transform: translateX(calc(-160% - 80%)); 
+    }
+  }
+  
+}
+
+/*              footer           *//*              footer           */
 .footer{
     margin-top: 5rem;
     background-color: #101010;
@@ -919,32 +1109,32 @@ section {
     width: 100%;
 }
 
-.footer .box img{
+.footer .bx img{
     height: 4rem;
     width: 15rem;
 }
-.footer .box h3{
+.footer .bx h3{
     font-size: 2.5rem;
     color: orange;
     margin: 1rem;
-}.footer .box h3 i{
+}.footer .bx h3 i{
     font-size: 2.5rem;
     color: rgb(15, 17, 17);
     margin: 0.2rem;
 }
 
-.footer  .box a{
+.footer  .bx a{
     display: block;
     font-size: 1.5rem;
     color: aqua;
     font-weight: 700;
     padding: 0.5rem;
 }
-.footer  .box a:hover{
+.footer  .bx a:hover{
     font-size: 1.8rem;
     color: azure;
 }
-.footer  .box a i{
+.footer  .bx a i{
     color:aqua;
     font-size: 1.5rem;
     padding-right: 0.3rem;
@@ -957,7 +1147,10 @@ section {
     border-radius: 1rem;
     
 }
-#box1 p{
+#boxy h2{
+    color: rgb(247, 172, 12);
+}
+#boxy p{
     color: aqua;
 }
 .footer  .email:hover{
@@ -973,14 +1166,14 @@ section {
     position: relative;
     top: 7%;
 }
-.footer .box p{
+.footer .bx p{
     font-size: 1.4rem;
     font-weight: 600;
     padding: 1rem;
     margin: 1rem 0;
     color: azure;
 }
-.footer .box #b4 a{
+.footer .bx #b4 a{
     background-color: #eee;
     color: azure;
     display: inline-block;
@@ -992,11 +1185,11 @@ section {
     border-radius: 1rem;
     
 }
-.footer .box #b4 a:hover{
+.footer .bx #b4 a:hover{
     color: rgba(183, 17, 166, 0.998);
     font-size: 2rem;
 }
-.footer .box{
+.footer .bx{
     
     margin: 1rem  ;
 }
@@ -1007,10 +1200,10 @@ section {
     border-bottom: 2px solid  silver;
     width: 100%;
 }
-.footer .m .end2 .box h4{
+.footer .m .end2 .bx h4{
     color:aqua;
 }
-.footer .m .end2 .box p{
+.footer .m .end2 .bx p{
     color: orange;
 }
 @media (max-width:1100px){
@@ -1044,9 +1237,9 @@ section {
     margin: 0 auto;
     justify-content: center;
 }
-@media (max-width:800px){
+@media (max-width:900px){
   .part2{
-    width: 96.5%;
+    width: 97.5%;
   }
   .ending{
     width: 95%;
