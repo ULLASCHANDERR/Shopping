@@ -334,7 +334,7 @@ section {
     border-radius: 2rem;
     box-shadow: var(--box-shadow);
     border: var(--border);
-    background-image: url(p1.jpg);
+    background-image: url(Poster.jpg);
     height: 50px;
     width: 100px;
     background-repeat: no-repeat;
@@ -445,6 +445,8 @@ section {
 
 /*              home4            */
 /* Regular styling */
+
+
 .home4 {
     background-color: azure;
     height: auto;
@@ -523,14 +525,14 @@ section {
     background-color: rgb(247, 172, 12);
     border-radius: 12%;
     margin-top: 3rem;
-    margin-left: 15rem;
+    margin-left: 15%;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 .yog:hover{
-    height: 52px;
-    width: 203px;
+    height: 55px;
+    width: 210px;
 }
 .yog a h3 {
     color: black;
@@ -586,8 +588,18 @@ section {
     
 }
 
+.yog:hover{
+    height: 35px;
+    width: 120px;
+}
+
 .yog a h3 {
     font-size: 1.4rem;
+}
+
+.yog a h3:hover{
+    color: black;
+    font-size: 1.8rem;
 }
 }
 
